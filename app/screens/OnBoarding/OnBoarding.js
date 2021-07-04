@@ -136,10 +136,8 @@ const OnBoarding = () => {
             <Animated.View
               key={`dot-${index}`}
               opacity={opacity}
-              style={[
-                styles.dot,
-                {width: dotSize, height: dotSize},
-              ]}></Animated.View>
+              style={[styles.dot, {width: dotSize, height: dotSize}]}
+            />
           );
         })}
       </View>
